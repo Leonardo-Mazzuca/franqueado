@@ -1,0 +1,131 @@
+:root {
+    --color-site: #CCB67C;
+    --color-site-hover: #b19a62;
+    --color-black: #000;
+    --color-white: #FFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: var(--color-black);
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--color-site) !important;
+}
+
+.btn-investidores {
+    color: var(--color-black) !important;
+}
+
+.logo {
+    max-height: 90px;
+}
+
+.bi-list {
+    color: var(--color-site);
+    font-size: 40px;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.carousel {
+    width: 70% !important;
+    margin: 0 auto !important;
+}
+
+.img-sistema-arma {
+    margin-bottom: 30px;
+}
+
+thead tr th {
+    background-color: var(--color-site) !important;
+}
+
+.video-robo {
+    height: 400px !important;
+}
+
+.card {
+    max-width: 350px !important;
+    width: 100% !important;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover !important;
+}
+
+.img-robocup {
+    width: 60% !important;
+}
+
+.accordion-button {
+    background-color: var(--color-site) !important;
+    border-color: var(--color-black) !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    background-color: var(--color-site) !important;
+}
+
+.btn:hover {
+    background-color: var(--color-site-hover) !important;
+}
+
+.container-input input:focus {
+    box-shadow: none !important;
+    border-color: var(--color-site) !important;
+}
+
+.container-textarea textarea:focus {
+    box-shadow: none !important;
+    border-color: var(--color-site) !important;
+}
+
+footer {
+    background-color: var(--color-black) !important;
+}
+
+.title-footer {
+    color: var(--color-site) !important;
+}
+
+footer img {
+    max-height: 90px;
+}
+
+@media(max-width: 768px) {
+
+    .descricao-robo {
+        width: 100% !important;
+    }
+
+    .carousel {
+        width: 100% !important;
+    }
+
+    .img-robocup {
+        width: 100% !important;
+    }
+
+    .ratio {
+        width: 100% !important;
+    }
+
+}

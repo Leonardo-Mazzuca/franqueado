@@ -1,0 +1,131 @@
+:root {
+    --color-site: #CCB67C;
+    --color-site-hover: #b19a62;
+    --color-black: #000;
+    --color-white: #FFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    background-color: var(--color-black);
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--color-site) !important;
+}
+
+.sejam-socios {
+    background-color: var(--color-site);
+    color: var(--color-black) !important;
+    border-radius: 7px;
+}
+
+.btn-investidores {
+    color: var(--color-black) !important;
+}
+
+.logo {
+    max-height: 90px;
+}
+
+.bi-list {
+    color: var(--color-site);
+    font-size: 40px;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.section-banner {
+    height: 100vh;
+    -webkit-background-image: url('../images/roboBanner.jpg') !important;
+    background-image: url('../images/roboBanner.jpg') !important;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-banner h1 {
+    font-size: 8vmin;
+}
+
+.btn {
+    background-color: var(--color-site) !important;
+    color: var(--color-black);
+}
+
+.btn:hover {
+    background-color: var(--color-site-hover) !important;
+}
+
+#quemsomos,
+#ia,
+#tendencia,
+#socio,
+#beneficios {
+    padding-top: 125px !important;
+}
+
+#socio h1,
+#beneficios h1,
+#saibamais-robo h1 {
+    color: var(--color-site);
+    text-shadow: 1px 1px 3px var(--color-black);
+}
+
+textarea {
+    resize: none;
+}
+
+.container-input input:focus {
+    box-shadow: none !important;
+    border-color: var(--color-site) !important;
+}
+
+.container-textarea textarea:focus {
+    box-shadow: none !important;
+    border-color: var(--color-site) !important;
+}
+
+.shadow {
+    box-shadow: 1px 1px 40px var(--color-site) !important;
+}
+
+.img-robo {
+    height: 400px;
+}
+
+footer {
+    background-color: var(--color-black) !important;
+}
+
+.title-footer {
+    color: var(--color-site) !important;
+}
+
+@media(max-width: 768px) {
+
+    .section-banner {
+        background-position: center;
+    }
+
+    .img-logo-quem-somos {
+        justify-content: center !important;
+    }
+
+    .img-robo {
+        height: auto;
+    }
+
+}

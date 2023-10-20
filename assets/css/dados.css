@@ -1,0 +1,137 @@
+:root {
+    --gray: #dedede;
+    --darken: #181818;
+    --yeallow: #ffbf00;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+.bg-img{
+    background-image: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .9)),
+    url(../images/roboBanner.jpg);
+    background-position: 20% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__container {
+    width: 100%;
+}
+
+.container__produtos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.card__produto {
+
+    background: var(--darken);
+    height: auto;
+    padding: 2rem;
+    width: 30%;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.card__produto h5 {
+
+
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gray);
+
+
+
+}
+
+.card__produto .card__preco {
+
+
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--yeallow);
+    animation: is-front .5s ease-in-out infinite alternate;
+
+
+}
+
+.card__beneficios {
+    text-align: start;
+    line-height: 2;
+}
+
+.card__beneficios p {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--yeallow);
+}
+
+
+.card__button {
+    background: var(--yeallow) !important;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.text__edit{
+    color: var(--yeallow);
+}
+
+@media(max-width: 1000px) {
+
+
+    .card__produto {
+        width: 80% !important;
+    }
+
+
+}
+
+
+
+.card__diferencial{
+    background-color: #45474B;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2rem;
+    margin-bottom: 0.6rem;
+}
+
+.img__investidores img{
+    transform: translateY(32px);
+    border-radius: 4px 4px 0 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes is-front {
+    from {
+        transform: scale(1.2);
+    }
+}

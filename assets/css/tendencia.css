@@ -1,0 +1,31 @@
+header{
+    z-index: 100;
+}
+
+.swiper-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; 
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide .card__swiper{
+    max-width: 70%;
+
+}
+
+.card__swiper{
+    background: #dedede;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #000;
+    width: 80%;
+
+}
+
