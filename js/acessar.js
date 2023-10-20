@@ -9,7 +9,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
     const formUser = document.querySelector('#user').value;
 
     if(pass === formPassword && formUser === user){
-        window.location.href = '/dados.html';
+        window.location.href = 'https://leonardo-mazzuca.github.io/dados/';
     } else {
         alert('Dados inválidos, insira novamente')
         document.querySelector('#password').focus();
